@@ -1,0 +1,85 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   body {
+     font-family: "DM Serif Text", serif;   }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+     font-family: "Source Sans 3", sans-serif;
+   }
+   
+   .container {
+     width: 90%;
+     margin: auto;
+   }
+   .clr {
+     clear: both;
+   }
+   
+   ul{
+        list-style:none ;
+   }
+   .navbar {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 1; /* Ensure navbar is above the image */
+   }
+ 
+
+.header{
+     background-image: url(/Aura/img/mini.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     color: #Fff;
+     text-align: center; 
+
+}
+.overlay{
+     background-color: rgba(0, 0,0, .3);
+     height: 100%;
+     position: absolute;
+    
+    left: 0;
+    
+    width: 100%;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.navbar-transparent .navbar-nav .nav-link {
+     color: white !important;
+   }
+
+   .btn1 {
+     background-color: #774B2D; 
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     
+     margin: 4px ;
+     cursor: pointer;
+     font-size: 16px; 
+   }
+   .btn{
+     background-color: #774B2D; 
+   }
+   ul,li,a ,.nav-link{
+     color: white;
+   }
+ 
+ 
+     
